@@ -1,7 +1,7 @@
 ![Calf Logo](./logo.png)
 
-# calf
-一个轻量、简单的项目构建工具.
+# calf-cli
+一个轻量、简单的calf项目构建工具.
 
 # 安装 (Installation)
 ```

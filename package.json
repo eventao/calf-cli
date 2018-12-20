@@ -1,6 +1,6 @@
 {
-  "bin":{
-    "calf":"bin/"
+  "bin": {
+    "calf": "bin/calf"
   },
   "name": "calf-cli",
   "version": "1.0.0",

@@ -1,0 +1,25 @@
+{
+  "name": "calf-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eventao/calf-cli.git"
+  },
+  "author": "even",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eventao/calf-cli/issues"
+  },
+  "homepage": "https://github.com/eventao/calf-cli#readme",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0"
+  }
+}

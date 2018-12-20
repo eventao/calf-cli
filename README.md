@@ -1,4 +1,4 @@
-![Scion Logo](./logo.png)
+![Calf Logo](./logo.png)
 
 # calf
 一个轻量、简单的项目构建工具.
@@ -12,7 +12,7 @@ cd calf-cli && npm install
 npm link
 ```
 
-# Usage
+# 使用 (Usage)
 Open your terminal and type `calf` or `calf -h` , you'll see the help infomation below:
 ```
   Usage: calf <command>
@@ -31,9 +31,9 @@ Open your terminal and type `calf` or `calf -h` , you'll see the help infomation
     -V, --version  output the version number
 ```
 
-# Commands
+# 命令 (Commands)
 ### add | a
-This command would help you to add a new template to the `templates.json`, which will be used by Scion to generate projects.
+This command would help you to add a new template to the `templates.json`, which will be used by Calf to generate projects.
 ```
 $ calf add
 ```
@@ -56,7 +56,7 @@ The last template list is:
       { url: 'https://gitxxx/somebody/my-tpl.git',
         branch: 'master' } } }
 ```
-Now you've added a new template to Scion successfully.
+Now you've added a new template to Calf successfully.
 
 ### list | l
 It shows you the templates list.
@@ -110,10 +110,10 @@ The last template list is:
 once a template is `undefined`, it means you've deleted it successfully.
 
 # Template
-The most important part of Scion is `template`. All templates' infomation were list in the `templates.json`.
+The most important part of Calf is `template`. All templates' infomation were list in the `templates.json`.
 A template means a project sample, which has a simple or complex file structure.
 
-You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into Scion's `templates.json`.
+You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into Calf's `templates.json`.
 
 # License
 MIT.
